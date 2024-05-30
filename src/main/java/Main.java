@@ -17,6 +17,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        //Graph 1
         List<GraphVertex> vertices = new ArrayList<>();
         GraphVertex v0 = new GraphVertex(0);
         GraphVertex v1 = new GraphVertex(1);

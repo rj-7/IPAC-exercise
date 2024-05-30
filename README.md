@@ -26,6 +26,12 @@ we have an optimal subproblem to calculate longest distance in order of the trav
 
 Referred Stack Overflow thread: https://stackoverflow.com/questions/10712495/longest-path-in-a-dag
 
+## Test case 
+### Graph
+![graph1.jpg](Tests%2FTest1%2Fgraph1.jpg)
+### Output
+![Test1-output.png](Tests%2FTest1%2FTest1-output.png)
+
 ## Questions
 
 1. <b>Does the solution work for larger graphs?</b>
@@ -45,6 +51,9 @@ Referred Stack Overflow thread: https://stackoverflow.com/questions/10712495/lon
 - Longest path
   - Time complexity - <b>O(V+E)</b> - The longest path to each vertex is calculated once for every edge directing to the vertex
   - Space complexity - <b>O(V)</b> - Distance to every vertex is saved in 1 place
+- Overall complexity
+  - Time complexity - <b>O(V+E)</b>
+  - Space complexity - <b>O(V)</b>
 
 4. <b>Are there any unusual cases that aren’t handled?</b>
 - The current solution covers basice edge cases for graphs like empty graph, disconnected graphs
@@ -59,4 +68,4 @@ Referred Stack Overflow thread: https://stackoverflow.com/questions/10712495/lon
 
 6. <b>If you could choose any language/framework/technology stack, what would you choose and why?</b>
 - With the newer Java versions and frameworks like Spring, Java is still a very powerful language to build applications. With Spring support for annotations and dependency injection, the size and verbosity of codebases have reduced. With support for reactive components like Flux, non-blocking concurrent programming is slightly easier
-- Another language I would prefer is Kotlin, Kotlin's coroutines and flow APIs are a big win to reactive programming. Kotlin also supports core functional programming concepts like immutability and higher order functions. Kotlin's type inference and null-safety are very good to reduce verbosity. Kotlin is a JVM language, interoperable with Java and almost all major frameworks including Spring also support Kotlin. 
+- Another language I would prefer is Kotlin, Kotlin's coroutines and flow APIs are a big win to reactive programming. Kotlin also supports core functional programming concepts like immutability and higher order functions. Kotlin's type inference and null-safety are very good to reduce verbosity. Kotlin is a JVM language, interoperable with Java and almost all major frameworks including Spring support Kotlin along with Java. 
